@@ -1,0 +1,55 @@
+body {
+    background-color: #555555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    background-color: #cccccc;
+    border: 2px solid white;
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+    z-index: 2;
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+
+    z-index: 1;
+}
+
+.mainbody {
+    top: 64px;
+    left: 114px;
+    right: 114px;
+    text-align: center;
+}
+
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    position: absolute;
+}
+
+.footer {
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px color#999999;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.leftallign {
+    text-align: left;
+}
+
+.center {text-align: center;}
